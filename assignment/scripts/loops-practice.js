@@ -14,9 +14,20 @@ for (let i=0; i<4; i++) {
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 0 to 5');
 
+// To accomplish this, we need to update the condition (change i<4 to i<6)
+for (let i = 0; i < 6; i++) {
+  console.log(i);
+}
+
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 3 to 5');
+
+// To accomplish this, we need to update the start value (change the initialization
+  //from i=0 to i = 3)
+for (let i = 3; i < 6; i++) {
+  console.log(i);
+}
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
